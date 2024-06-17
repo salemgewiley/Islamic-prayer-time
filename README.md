@@ -4,7 +4,7 @@
 Welcome to the Prayer Timings website! This website provides daily prayer timings for selected cities in Egypt. It's designed to be responsive and user-friendly.
 
 #### Preview
-![Website Preview]![image](https://github.com/salemgewiley/Islamic-prayer-time/assets/105030635/cc0e4f73-61ed-400b-849a-1c348cfa03a6)
+![image](https://github.com/salemgewiley/Islamic-prayer-time/assets/105030635/cc0e4f73-61ed-400b-849a-1c348cfa03a6)
 
 #### Features 🌟
 - **City Selection**: Choose from a dropdown list of major cities in Egypt.
