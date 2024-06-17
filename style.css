@@ -14,27 +14,10 @@
 body {
   font-family: "ExpoArabic", Arial, sans-serif;
   direction: rtl;
-  background-color: #000;
+  background-color: #ccc;
 }
 /* background video   */
-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  opacity: 0.3;
-  z-index: -1;
-}
-#myVideo2 {
-  display: none;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  opacity: 0.5;
-  z-index: -1;
-}
+
 .container {
   width: 100%;
   max-width: 1500px;
@@ -45,7 +28,7 @@ video {
   margin-bottom: 30px;
 }
 .title {
-  color: white;
+  color: #333;
   text-align: center;
   margin-top: 50px;
   font-size: 40px;
@@ -102,7 +85,7 @@ label {
 }
 .city-info {
   margin: 0 20px;
-  color: #fff;
+  color: #333;
   font-size: 30px;
   font-family: "ExpoLight", Arial, sans-serif;
   z-index: 100;
@@ -177,12 +160,6 @@ label {
     margin: 10px 0;
     width: 300px;
   }
-  #myVideo {
-    display: none;
-  }
-  #myVideo2 {
-    display: block;
-  }
 }
 .enable-azan {
   padding-top: 20px;
@@ -201,36 +178,4 @@ label {
   margin-bottom: 10px;
   width: 60px;
   height: 30px;
-}
-#moazen-container {
-  display: flex;
-  color: #fff;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 10px;
-}
-#moazen-container label {
-  color: #fff;
-  color: #fff;
-  font-size: 30px;
-  text-align: center;
-}
-
-#playAdhanSound,
-#stopAdhanSound {
-  background-color: #137547;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-right: 10px;
-  cursor: pointer;
-  outline: none;
-  font-family: inherit;
-}
-
-#stopAdhanSound:disabled {
-  background-color: #fff;
-    color: #137547;
-  cursor: not-allowed;
 }
