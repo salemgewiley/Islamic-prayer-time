@@ -1,7 +1,3 @@
-var video = document.getElementById("myVideo");
-video.playbackRate -= 0.15;
-var video2 = document.getElementById("myVideo2");
-video2.playbackRate -= 0.15;
 fetchTimingsByCity("Al Qāhirah");
 let cities = [
   "القاهرة",
