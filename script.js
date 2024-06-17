@@ -115,7 +115,7 @@ document
   });
 
 function fetchTimingsByCity(city) {
-  const url = `http://api.aladhan.com/v1/timingsByCity?city=${encodeURIComponent(
+  const url = `https://api.aladhan.com/v1/timingsByCity?city=${encodeURIComponent(
     city
   )}&country=EGY`;
   fetch(url)
