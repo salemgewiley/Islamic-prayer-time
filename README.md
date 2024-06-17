@@ -17,7 +17,7 @@ Welcome to the Prayer Timings website! This website provides daily prayer timing
 2. The website will fetch and display the current day's prayer timings and date.
 3. Enjoy the background video that changes based on the device for an enhanced user experience.
 
-#### Check it out here: [Prayer Timings Website](https://islamic-prayer-time-jade.vercel.app/)
+#### Check it out here: [Prayer Timings Website]([https://islamic-prayer-time-sx84.vercel.app/])
 
 #### Technologies Used 🛠️
 - HTML
