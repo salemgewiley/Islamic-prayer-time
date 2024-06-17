@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>مواقيت الصلاة</title>
+    <link rel="shortcut icon" href="/img/pray6.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title"><h1>مواقيت الصلاة</h1></div>
+
+      <div class="dropdown-container">
+        <div class="custom-select-wrapper">
+          <select
+            id="cities_select"
+            name="choices"
+            class="custom-select"
+          ></select>
+          <div class="custom-arrow-wrapper">
+            <span class="custom-arrow">&#9662;</span>
+          </div>
+        </div>
+      </div>
+      <div class="city-info">
+        <h1 id="city-name" class="city-name">القاهرة</h1>
+        <h2 id="date" class="date">11 أكتوبر 2024</h2>
+        <hr />
+      </div>
+      <div class="prayers">
+        <div class="pray">
+          <div class="pray-icon"><img src="/img/pray1.png" alt="" /></div>
+          <div class="pray-name">الــفــجــر</div>
+          <div id="fajr" class="pray-time"></div>
+        </div>
+        <div class="pray">
+          <div class="pray-icon"><img src="/img/pray2.png" alt="" /></div>
+          <div class="pray-name">الــصــبــح</div>
+          <div id="sobh" class="pray-time"></div>
+        </div>
+        <div class="pray">
+          <div class="pray-icon"><img src="/img/pray3.png" alt="" /></div>
+          <div class="pray-name">الــظــهــر</div>
+          <div id="zuhr" class="pray-time"></div>
+        </div>
+        <div class="pray">
+          <div class="pray-icon"><img src="/img/pray4.png" alt="" /></div>
+          <div class="pray-name">الــعــصــر</div>
+          <div id="asr" class="pray-time"></div>
+        </div>
+        <div class="pray">
+          <div class="pray-icon"><img src="/img/pray5.png" alt="" /></div>
+          <div class="pray-name">الــمــغــرب</div>
+          <div id="maghrib" class="pray-time"></div>
+        </div>
+        <div class="pray">
+          <div class="pray-icon"><img src="/img/pray6.png" alt="" /></div>
+          <div class="pray-name">الــعــشــاء</div>
+          <div id="isha" class="pray-time"></div>
+        </div>
+      </div>
+    </div>
+    <!-- video for pc -->
+    <video id="myVideo" autoplay muted loop>
+      <source src="/img/background.mp4" type="video/mp4" />
+    </video>
+    <!-- video for mobile -->
+    <video id="myVideo2" autoplay muted loop>
+      <source src="/img/video-mobile.mp4" type="video/mp4" />
+    </video>
+
+    <script src="script.js"></script>
+  </body>
+</html>
