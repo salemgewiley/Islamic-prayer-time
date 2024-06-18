@@ -1,3 +1,7 @@
+var video = document.getElementById("myVideo");
+video.playbackRate -= 0.15;
+var video2 = document.getElementById("myVideo2");
+video2.playbackRate -= 0.15;
 fetchTimingsByCity("Al Qāhirah");
 let cities = [
   "القاهرة",
@@ -29,7 +33,6 @@ let cities = [
   "سوهاج",
 ];
 
-// إضافة الخيارات إلى القائمة المنسدلة
 let selectElement = document.getElementById("cities_select");
 for (let i = 0; i < cities.length; i++) {
   let option = document.createElement("option");
@@ -38,7 +41,6 @@ for (let i = 0; i < cities.length; i++) {
   selectElement.appendChild(option);
 }
 
-// الاستماع إلى التغيير في القائمة المنسدلة
 document.addEventListener("DOMContentLoaded", function () {
   const lastSelectedCity = localStorage.getItem("selectedCity");
   if (lastSelectedCity) {
